@@ -1,0 +1,12 @@
+# Core Machine Learning
+scikit-learn==1.3.2
+pandas==2.1.4
+numpy==1.26.2
+
+# Configuration & Security
+PyYAML==6.0.1
+python-dotenv==1.0.0
+
+# LLM Integration (Future-proofing for Project 02)
+openai>=1.0.0
+transformers>=4.35.0
