@@ -1,0 +1,38 @@
+# --- Security & Environment ---
+.env
+.env.*
+secrets.json
+*.pem
+*.key
+
+# --- Python Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+
+# --- AI/ML Specific ---
+# Ignore local model weights and large datasets
+models/
+data/raw/
+data/processed/
+*.bin
+*.onnx
+*.pt
+*.pth
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Analysis ---
+*.log
+.ipynb_checkpoints/
+wandb/
+mlruns/
